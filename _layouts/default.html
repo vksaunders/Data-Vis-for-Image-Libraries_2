@@ -25,7 +25,10 @@
     <header>
       
       <center>
-      <img src="https://user-images.githubusercontent.com/30129746/81487391-52950100-922a-11ea-9b79-943bbd824a07.PNG">
+        
+      <h1 class="project-name">{{ repository.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>  
+      <img src="https://user-images.githubusercontent.com/30129746/81487726-40b55d00-922e-11ea-8e38-96900268af2c.png">
       </center>
 
     </header>
